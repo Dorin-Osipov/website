@@ -5,89 +5,139 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Portofolio</title>
-    <link href="/Dorin-Portofolio/styles/style.css" rel="stylesheet">
-    <script src="/Dorin-Portofolio/scripts/script.js"></script>
+    <link href="../Dorin-Portofolio/styles/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <script src="../Dorin-Portofolio/scripts/script.js"></script>
+    <script src="https://kit.fontawesome.com/1b96b2a45f.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header>
-        <h1 id="logo">Dorin Osipov</h1>
+
         <nav>
+            <h1 id="logo">Dorin Osipov</h1>
             <ul class="navigation-items">
                 <li class="navigation-item"> <a href="#about-me">About Me</a></li>
                 <li class="navigation-item"> <a href="#projects">Projects</a></li>
                 <li class="navigation-item"> <a href="#skills">Skills</a></li>
-                <li class="navigation-item"> <a href="/Dorin-Portofolio/contact.html">Contact</a></li>
+                <li class="navigation-item"> <a href="../Dorin-Portofolio/contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section id="about-me">
-            <h2>About Me</h2>
-            <p>
-                Hi, I'm Dorin! I'm a software developer with 5 years of experience creating web and mobile applications.
-                I've always been fascinated by technology and how it can be used to solve complex problems, which is why
-                I pursued a career in software development.</p>
-            <dl>
-                <dt>Skills:</dt>
-                <dd>I'm proficient in a range of programming languages, including Python, JavaScript, and Java. I've
-                    also
-                    worked with various frameworks like Django, React, and Spring Boot. In addition, I have experience
-                    with
-                    cloud technologies like AWS and GCP, and I'm familiar with databases such as MySQL and MongoDB.</dd>
+            <div class="about-me-container">
+                <div class="about-me-text">
+                    <h2>About Me</h2>
+                    <p>
+                        Hi, I'm Dorin! I'm a software developer with 5 years of experience creating web and mobile
+                        applications.
+                        I've always been fascinated by technology and how it can be used to solve complex problems,
+                        which is why
+                        I pursued a career in software development.</p>
+                    <dl>
+                        <dt>Skills:</dt>
+                        <dd>I'm proficient in a range of programming languages, including Python, JavaScript, and Java.
+                            I've
+                            also
+                            worked with various frameworks like Django, React, and Spring Boot. In addition, I have
+                            experience
+                            with
+                            cloud technologies like AWS and GCP, and I'm familiar with databases such as MySQL and
+                            MongoDB.</dd>
 
-                <dt>Experience:</dt>
-                <dd>I started my career as a Junior Developer at XYZ Company, where I worked on developing web
-                    applications
-                    using React and Node.js. After 2 years, I was promoted to a Senior Developer role, where I led a
-                    team of
-                    4 developers and helped build a mobile app using React Native. I then moved to ABC Company as a
-                    Backend
-                    Developer, where I designed and implemented RESTful APIs using Spring Boot and MongoDB.</dd>
+                        <dt>Experience:</dt>
+                        <dd>I started my career as a Junior Developer at XYZ Company, where I worked on developing web
+                            applications
+                            using React and Node.js. After 2 years, I was promoted to a Senior Developer role, where I
+                            led a
+                            team of
+                            4 developers and helped build a mobile app using React Native. I then moved to ABC Company
+                            as a
+                            Backend
+                            Developer, where I designed and implemented RESTful APIs using Spring Boot and MongoDB.</dd>
 
-                <dt>Passion:</dt>
-                <dd>I'm passionate about building software that solves real-world problems and makes people's lives
-                    easier.
-                    In my spare time, I contribute to open-source projects and build personal projects that help me
-                    learn
-                    new technologies. I'm also interested in exploring the intersection of software development and
-                    artificial intelligence.</dd>
+                        <dt>Passion:</dt>
+                        <dd>I'm passionate about building software that solves real-world problems and makes people's
+                            lives
+                            easier.
+                            In my spare time, I contribute to open-source projects and build personal projects that help
+                            me
+                            learn
+                            new technologies. I'm also interested in exploring the intersection of software development
+                            and
+                            artificial intelligence.</dd>
 
-                <dt>Personality:</dt>
-                <dd>Outside of work, I enjoy hiking, playing basketball, and reading science fiction novels. I'm a big
-                    fan
-                    of the Marvel Cinematic Universe and I love to travel to new places.</dd>
+                        <dt>Personality:</dt>
+                        <dd>Outside of work, I enjoy hiking, playing basketball, and reading science fiction novels. I'm
+                            a big
+                            fan
+                            of the Marvel Cinematic Universe and I love to travel to new places.</dd>
 
-                <dt>Goals:</dt>
-                <dd>In the future, I hope to work on more complex projects that challenge me and help me grow as a
-                    developer. I'm also interested in exploring the use of machine learning and natural language
-                    processing
-                    in software development. Ultimately, my goal is to become a technical lead or architect and
-                    contribute
-                    to the development of innovative and impactful software products.</dd>
-            </dl>
+                        <dt>Goals:</dt>
+                        <dd>In the future, I hope to work on more complex projects that challenge me and help me grow as
+                            a
+                            developer. I'm also interested in exploring the use of machine learning and natural language
+                            processing
+                            in software development. Ultimately, my goal is to become a technical lead or architect and
+                            contribute
+                            to the development of innovative and impactful software products.</dd>
+                    </dl>
+                </div>
 
-            <div class="contact-btn">
-                <button>View Linkedin</button>
-                <button>View Github</button>
+
+                <img class="portrait" src="../Dorin-Portofolio/images/profile_image.jpg" alt="A photo of Dorin Osipov">
+
             </div>
-            <img src="../Dorin-Portofolio/images/profile_image.jpg" alt="A photo of Dorin Osipov">
-
+            <div class="about-me-contact-btn">
+                <a target="_blank" href="https://www.linkedin.com/in/dorin-osipov-69a00a221/"><button class="Linkedin-btn" >View Linkedin</button></a>
+                <a target="_blank" href="https://www.linkedin.com/in/dorin-osipov-69a00a221/"><button class="Github-btn" >View Github</button></a>
+            </div>
 
         </section>
 
         <section id="projects">
             <h2>Projects</h2>
+            <details class="project">
+                <summary class="project-title">
+                  <h3>Jetspeed Travel Agency</h3>
+                </summary>
+                <img
+                  src="../Dorin-Portofolio/images/JetSpeed.PNG"
+                  alt="Jetspeed Travel Agency"
+                  class="project-image"
+                />
+                <p class="project-description">
+                  First Web site created. Used technologies like HTML and CSS.
+                </p>
+              </details>
         </section>
 
         <section id="skills">
             <h2>Skills</h2>
+            <div id="skills-container">
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3-alt"></i>
+                <i class="fab fa-js"></i>
+                <i class="fab fa-react"></i>
+                <i class="fab fa-aws"></i>
+                <i class="fab fa-sketch"></i>
+                <i class="fab fa-figma"></i>
+                <i class="fab fa-git"></i>
+                <i class="fab fa-chrome"></i>
+                <i class="fas fa-terminal"></i>
+                <i class="fas fa-universal-access"></i>
+                <i class="fab fa-npm"></i>
+                <i class="fab fa-node"></i>
+                <i class="fab fa-github"></i>
+              </div>
         </section>
 
 
     </main>
     <footer>
-
+        Made with <span class="heart"><i class='fas fa-heart'></i></span> and <span class="computer"><i class='fas fa-laptop'></i></span> in Leeds
+        
     </footer>
 </body>
 
